@@ -1,5 +1,32 @@
 .topbar{
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   background-color: #0f2d56;
+ }
+
+ .grid{
+    display: grid;
+    grid-template-columns: 377px 338px 320px 290px 335px 254px;
+    width: 100%;
+    color: #fff;
+    place-content: center;
+    place-items: center;
+ }
+.iconList{
+   font-size: 1em;
+   font-weight: 500;
+   padding-left: 26px;
 }
+.iconFirst{
+   
+}
+ .iconEnvelope{
+background-image: url('../public/envelope.png');
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+width:16px;
+height: 12px;
+display: inline-block;
+margin-right: 11px;  
+ }

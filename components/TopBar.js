@@ -1,18 +1,41 @@
-import '../styles/TopBar.module.css'
+import styles from  '../styles/TopBar.module.css'
 const TopBar = () => {
     return (
-        <section className="topbar d-none d-lg-block d-xl-block">
-      <div className="container-fluid">
-        <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 align-items-center">
-            <div className="col">1</div>
-            <div className="col">2</div>
-            <div className="col">3</div>
-            <div className="col">4</div>
-            <div className="col">5</div>
-         
-        </div>
+        <div className={styles.topbar}>
+      <div className={styles.grid}>
+            <div className="col">
+            <div className={styles.iconList}>
+            <i className={styles.iconEnvelope}></i> Email Us: info@celebritiesjackets.com 
+            </div>
+            </div>
+            <div className="col">
+            <div className={styles.iconList}>
+            <i></i> Free Shipping Worldwide
+            </div>
+            </div>
+            <div className="col">
+            <div className={styles.iconList}>
+            <i></i> 100% Secure Transaction
+            </div>
+            </div>
+            <div className="col">
+            <div className={styles.iconList}>
+            <i></i> Day Easy Returns
+            </div>
+            </div>
+            <div className="col">
+            <div className={styles.iconList}>
+            <i></i> Excellent Customer Service
+            </div>
+            </div>
+            <div className="col">
+            <div className={styles.iconList}>
+            <i></i> Excellent Customer Service
+            </div>
+            </div>
+   
       </div>
-    </section>
+    </div>
     )
 }
 
