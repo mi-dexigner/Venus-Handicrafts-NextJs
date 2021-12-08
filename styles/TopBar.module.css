@@ -1,32 +1,43 @@
 .topbar{
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  background-color: #0f2d56;
+   background-color: #0f2d56;
  }
 
  .grid{
     display: grid;
-    grid-template-columns: 377px 338px 320px 290px 335px 254px;
+    grid-template-columns: 380px 338px 320px 290px 335px 254px;
     width: 100%;
     color: #fff;
-    place-content: center;
-    place-items: center;
+    /*place-content: center;
+    place-items: center;*/
  }
+ .icons{
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+}
+.icons +  .icons::before{
+   content: '';
+   width: 1px;
+   height: 15px;
+   background-color: #fff;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   bottom: 0px;
+   margin: auto;
+}
 .iconList{
    font-size: 1em;
    font-weight: 500;
-   padding-left: 26px;
+   display: flex;
+   align-items: center;
+   padding-top: 0.8rem;
+   padding-bottom: 0.8rem;
 }
-.iconFirst{
-   
-}
- .iconEnvelope{
-background-image: url('../public/envelope.png');
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: scroll;
-width:16px;
-height: 12px;
+
+ .icon{
+width:24px;
+height: 24px;
 display: inline-block;
 margin-right: 11px;  
  }

@@ -30,6 +30,8 @@ const Meta = ({ title, description,shareImage}) => {
           <meta name="image" content={shareImage} />
         </>
       )}
+
+
     </Head>
   )
 }
