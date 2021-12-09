@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns:400px 1fr auto;
     padding: 25px 22px;
-    background-color: #fff;
+    background-color: rgb(219, 50, 50);
 }
 
 .logo{
@@ -31,4 +31,15 @@
 
 .cartHeader{
     margin-left: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.cartInner{
+    display: flex;
+}
+.searchIcon{
+    width:24px;
+height: 24px;
+display: inline-block;
 }
