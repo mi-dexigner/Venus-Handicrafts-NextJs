@@ -7,5 +7,6 @@ module.exports = {
     },
     compress: true,
     webpack5: true,
-    swcMinify: false
+    swcMinify: false,
+   "presets": ["next/babel"]
 }
