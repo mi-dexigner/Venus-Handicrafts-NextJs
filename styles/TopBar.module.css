@@ -7,8 +7,6 @@
     grid-template-columns: 380px 338px 320px 290px 335px 254px;
     width: 100%;
     color: #fff;
-    /*place-content: center;
-    place-items: center;*/
  }
  .icons{
    padding-left: 15px;
@@ -31,6 +29,7 @@
    font-weight: 500;
    display: flex;
    align-items: center;
+   justify-content: center;
    padding-top: 0.8rem;
    padding-bottom: 0.8rem;
 }

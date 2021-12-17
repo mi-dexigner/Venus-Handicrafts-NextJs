@@ -1,0 +1,23 @@
+.footer{
+    background-color: #111111;
+    padding-top: 56px;
+    padding-bottom: 34px;
+    color: #fff;
+}
+
+.footer_container{
+    width: 95vw;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(4,minmax(200px, 1fr))
+}
+.widget{
+    position: relative;
+}
+.widget_title{
+    font-size: 16px;
+    font-weight: 700;
+}
