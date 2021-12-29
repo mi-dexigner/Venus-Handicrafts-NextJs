@@ -2,7 +2,7 @@ module.exports = {
   reactStrictMode: true,
   optimizeFonts: true,
     images:{
-        domains:['links.papareact.com'],
+        domains:['celebritiesjackets.com'],
         formats: ['image/avif', 'image/webp'],
     },
     compress: true,
